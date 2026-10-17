@@ -1,0 +1,60 @@
+{
+  "home-base": {
+    "status": {
+      "operational": {
+        "$value": "#1D9E75",
+        "$type": "color"
+      },
+      "warning": {
+        "$value": "#EF9F27",
+        "$type": "color"
+      },
+      "critical": {
+        "$value": "#E24B4A",
+        "$type": "color"
+      },
+      "neutral": {
+        "$value": "#888780",
+        "$type": "color"
+      }
+    },
+    "status-background": {
+      "operational-bg": {
+        "$value": "#E1F5EE",
+        "$type": "color"
+      },
+      "warning-bg": {
+        "$value": "#FDF3E0",
+        "$type": "color"
+      },
+      "critical-bg": {
+        "$value": "#FCEBEB",
+        "$type": "color"
+      },
+      "neutral-bg": {
+        "$value": "#EBEBEB",
+        "$type": "color"
+      }
+    },
+    "energy": {
+      "trend-up": {
+        "$value": "{m3.palettes.error-40}",
+        "$type": "color"
+      },
+      "trend-down": {
+        "$value": "#1D9E75",
+        "$type": "color"
+      }
+    },
+    "gradient": {
+      "stop-1": {
+        "$value": "#00000000",
+        "$type": "color"
+      },
+      "stop-2": {
+        "$value": "#000000D9",
+        "$type": "color"
+      }
+    }
+  }
+}

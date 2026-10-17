@@ -1,0 +1,21 @@
+{
+  "description": "Foreground/background token pairs checked against WCAG 2.2. Names are the built token names (see build/json). If a background has alpha it is composited over 'over' first.",
+  "pairs": [
+    { "id": "m3-primary", "fg": "m3-schemes-on-primary", "bg": "m3-schemes-primary", "min": 4.5 },
+    { "id": "m3-primary-container", "fg": "m3-schemes-on-primary-container", "bg": "m3-schemes-primary-container", "min": 4.5 },
+    { "id": "m3-secondary", "fg": "m3-schemes-on-secondary", "bg": "m3-schemes-secondary", "min": 4.5 },
+    { "id": "m3-secondary-container", "fg": "m3-schemes-on-secondary-container", "bg": "m3-schemes-secondary-container", "min": 4.5 },
+    { "id": "m3-tertiary", "fg": "m3-schemes-on-tertiary", "bg": "m3-schemes-tertiary", "min": 4.5 },
+    { "id": "m3-tertiary-container", "fg": "m3-schemes-on-tertiary-container", "bg": "m3-schemes-tertiary-container", "min": 4.5 },
+    { "id": "m3-error", "fg": "m3-schemes-on-error", "bg": "m3-schemes-error", "min": 4.5 },
+    { "id": "m3-error-container", "fg": "m3-schemes-on-error-container", "bg": "m3-schemes-error-container", "min": 4.5 },
+    { "id": "m3-background", "fg": "m3-schemes-on-background", "bg": "m3-schemes-background", "min": 4.5 },
+    { "id": "m3-surface", "fg": "m3-schemes-on-surface", "bg": "m3-schemes-surface", "min": 4.5 },
+    { "id": "m3-surface-variant", "fg": "m3-schemes-on-surface-variant", "bg": "m3-schemes-surface-variant", "min": 4.5 },
+    { "id": "m3-inverse-surface", "fg": "m3-schemes-inverse-on-surface", "bg": "m3-schemes-inverse-surface", "min": 4.5 },
+    { "id": "hb-status-operational", "fg": "home-base-status-operational", "bg": "home-base-status-background-operational-bg", "over": "m3-schemes-surface", "min": 4.5 },
+    { "id": "hb-status-warning", "fg": "home-base-status-warning", "bg": "home-base-status-background-warning-bg", "over": "m3-schemes-surface", "min": 4.5 },
+    { "id": "hb-status-critical", "fg": "home-base-status-critical", "bg": "home-base-status-background-critical-bg", "over": "m3-schemes-surface", "min": 4.5 },
+    { "id": "hb-status-neutral", "fg": "home-base-status-neutral", "bg": "home-base-status-background-neutral-bg", "over": "m3-schemes-surface", "min": 4.5 }
+  ]
+}

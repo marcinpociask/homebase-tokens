@@ -1,0 +1,40 @@
+{
+  "font-theme": {
+    "static": {
+      "font": {
+        "brand": {
+          "$value": "Flow Circular",
+          "$type": "fontFamily"
+        },
+        "plain": {
+          "$value": "Flow Circular",
+          "$type": "fontFamily"
+        }
+      },
+      "weight": {
+        "regular": {
+          "$value": "Regular",
+          "$type": "string"
+        },
+        "medium": {
+          "$value": "Regular",
+          "$type": "string"
+        },
+        "bold": {
+          "$value": "Regular",
+          "$type": "string"
+        }
+      }
+    },
+    "tracking": {
+      "none": {
+        "$value": 0,
+        "$type": "number"
+      },
+      "small": {
+        "$value": 0,
+        "$type": "number"
+      }
+    }
+  }
+}

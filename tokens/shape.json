@@ -1,0 +1,86 @@
+{
+  "shape": {
+    "corner": {
+      "none": {
+        "$value": 0,
+        "$type": "dimension"
+      },
+      "extra-small": {
+        "$value": 4,
+        "$type": "dimension"
+      },
+      "small": {
+        "$value": 8,
+        "$type": "dimension"
+      },
+      "medium": {
+        "$value": 12,
+        "$type": "dimension"
+      },
+      "large": {
+        "$value": 16,
+        "$type": "dimension"
+      },
+      "large-increased": {
+        "$value": 20,
+        "$type": "dimension"
+      },
+      "extra-large": {
+        "$value": 28,
+        "$type": "dimension"
+      },
+      "extra-large-increased": {
+        "$value": 32,
+        "$type": "dimension"
+      },
+      "extra-extra-large": {
+        "$value": 48,
+        "$type": "dimension"
+      },
+      "full": {
+        "$value": 1000,
+        "$type": "dimension"
+      }
+    },
+    "spacing": {
+      "3xs": {
+        "$value": 4,
+        "$type": "dimension"
+      },
+      "2xs": {
+        "$value": 6,
+        "$type": "dimension"
+      },
+      "xs": {
+        "$value": 8,
+        "$type": "dimension"
+      },
+      "sm": {
+        "$value": 12,
+        "$type": "dimension"
+      },
+      "md": {
+        "$value": 16,
+        "$type": "dimension"
+      },
+      "lg": {
+        "$value": 24,
+        "$type": "dimension"
+      },
+      "xl": {
+        "$value": 32,
+        "$type": "dimension"
+      },
+      "touch": {
+        "min": {
+          "$value": 48,
+          "$type": "dimension"
+        },
+        "comfy": {
+          "$value": 56,
+          "$type": "dimension"
+        }
+      }
+    }
+  }
+}

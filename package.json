@@ -1,0 +1,21 @@
+{
+  "name": "homebase-tokens",
+  "version": "0.1.0",
+  "description": "Design tokens for the HomeBase smart home app concept: Figma variables to code with Style Dictionary, with a WCAG contrast check.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Marcin Pociask",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "convert": "node scripts/convert.mjs",
+    "build": "node scripts/build.mjs",
+    "contrast": "node scripts/contrast.mjs",
+    "test": "npm run build && npm run contrast"
+  },
+  "devDependencies": {
+    "style-dictionary": "^5.7.0"
+  }
+}
