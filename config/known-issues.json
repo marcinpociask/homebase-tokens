@@ -1,9 +1,4 @@
 {
   "description": "Documented contrast failures. The check passes while these still fail, and fails if one is fixed but not removed from this list, or if any other pair fails.",
-  "issues": [
-    { "pair": "hb-status-operational", "mode": "light", "ref": "Room Card audit A-01: status text on tinted chip background below 4.5:1" },
-    { "pair": "hb-status-warning", "mode": "light", "ref": "Room Card audit A-01: status text on tinted chip background below 4.5:1" },
-    { "pair": "hb-status-critical", "mode": "light", "ref": "Room Card audit A-01: status text on tinted chip background below 4.5:1" },
-    { "pair": "hb-status-neutral", "mode": "light", "ref": "Room Card audit A-01: status text on tinted chip background below 4.5:1" }
-  ]
+  "issues": []
 }

@@ -18,6 +18,28 @@
         "$type": "color"
       }
     },
+    "status-text": {
+      "operational": {
+        "$value": "#16795A",
+        "$type": "color",
+        "$description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3)."
+      },
+      "warning": {
+        "$value": "#9A610B",
+        "$type": "color",
+        "$description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3)."
+      },
+      "critical": {
+        "$value": "#CE2221",
+        "$type": "color",
+        "$description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3)."
+      },
+      "neutral": {
+        "$value": "#696862",
+        "$type": "color",
+        "$description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3)."
+      }
+    },
     "status-background": {
       "operational-bg": {
         "$value": "#E1F5EE",

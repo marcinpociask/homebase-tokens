@@ -25,7 +25,7 @@ flowchart LR
 | Collection | Tokens | Modes |
 |---|---|---|
 | M3 (Material 3 colour roles, palettes, surfaces, state layers) | 311 | Light, Dark |
-| Home Base (status, energy, gradient colours) | 12 | Light, Dark |
+| Home Base (status, status text, energy, gradient colours) | 16 | Light, Dark |
 | Shape (corner radius, spacing, touch targets) | 19 | none |
 | Font theme | 7 | Baseline, Wireframe |
 | Typescale | 90 | none |
@@ -56,11 +56,12 @@ CSS usage:
 
 Known failures are recorded in `config/known-issues.json`. The check passes while they are open, fails on any new failure, and fails if a known issue is fixed but still listed, so the list cannot go stale.
 
-**Open issue:** status text on its tinted background in light mode is below 4.5:1 (operational 2.98, warning 1.97, critical 3.41, neutral 3.02). This is finding A-01 from an expert-review audit of the Room Card component. Dark mode passes.
+**Resolved:** status text on its tinted background in light mode was below 4.5:1 (operational 2.98, warning 1.97, critical 3.41, neutral 3.02), finding A-01 from an expert-review audit of the Room Card component. The new `Status Text` tokens fix it (`#16795A`, `#9A610B`, `#CE2221`, `#696862`, each 4.6:1 or better on its tint). In dark mode they alias the existing status colours, which already passed. The original `Status` colours stay for fills and icons.
 
 ## Roadmap
 
-- Fix A-01 with a pull request that adds darker on-container status text tokens, and remove the known issues once the check is green.
+- Add the new `Status Text` variables to the Figma file (token pusher, Push), so the file and the repo agree.
+- Check the status colours used as icons or dots against the 3:1 non-text contrast rule (warning is about 2:1 on its tint).
 - Composite typography tokens from the 44 Figma text styles.
 - Write the repo's tokens back to Figma as variables, to close the loop.
 - A small preview page for the tokens.

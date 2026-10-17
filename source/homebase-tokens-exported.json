@@ -4442,6 +4442,42 @@
         "Dark": "#A8A5A0"
       }
     },
+    "Status Text/operational": {
+      "value": "#16795A",
+      "type": "color",
+      "description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3).",
+      "$modes": {
+        "Light": "#16795A",
+        "Dark": "{Home Base/Status/operational}"
+      }
+    },
+    "Status Text/warning": {
+      "value": "#9A610B",
+      "type": "color",
+      "description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3).",
+      "$modes": {
+        "Light": "#9A610B",
+        "Dark": "{Home Base/Status/warning}"
+      }
+    },
+    "Status Text/critical": {
+      "value": "#CE2221",
+      "type": "color",
+      "description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3).",
+      "$modes": {
+        "Light": "#CE2221",
+        "Dark": "{Home Base/Status/critical}"
+      }
+    },
+    "Status Text/neutral": {
+      "value": "#696862",
+      "type": "color",
+      "description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3).",
+      "$modes": {
+        "Light": "#696862",
+        "Dark": "{Home Base/Status/neutral}"
+      }
+    },
     "Status Background/operational-bg": {
       "value": "#E1F5EE",
       "type": "color",

@@ -18,6 +18,28 @@
         "$type": "color"
       }
     },
+    "status-text": {
+      "operational": {
+        "$value": "{home-base.status.operational}",
+        "$type": "color",
+        "$description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3)."
+      },
+      "warning": {
+        "$value": "{home-base.status.warning}",
+        "$type": "color",
+        "$description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3)."
+      },
+      "critical": {
+        "$value": "{home-base.status.critical}",
+        "$type": "color",
+        "$description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3)."
+      },
+      "neutral": {
+        "$value": "{home-base.status.neutral}",
+        "$type": "color",
+        "$description": "Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3)."
+      }
+    },
     "status-background": {
       "operational-bg": {
         "$value": "#1D9E7533",
