@@ -326,4 +326,8 @@
   --home-base-energy-trend-down: #5DBD9A;
   --home-base-gradient-stop-1: #00000000;
   --home-base-gradient-stop-2: #000000D9;
+  --home-base-status-text-operational: var(--home-base-status-operational); /** Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3). */
+  --home-base-status-text-warning: var(--home-base-status-warning); /** Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3). */
+  --home-base-status-text-critical: var(--home-base-status-critical); /** Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3). */
+  --home-base-status-text-neutral: var(--home-base-status-neutral); /** Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3). */
 }

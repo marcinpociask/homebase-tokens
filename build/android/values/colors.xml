@@ -319,6 +319,10 @@
   <color name="home_base_status_warning">#ffef9f27</color>
   <color name="home_base_status_critical">#ffe24b4a</color>
   <color name="home_base_status_neutral">#ff888780</color>
+  <color name="home_base_status_text_operational">#ff16795a</color>
+  <color name="home_base_status_text_warning">#ff9a610b</color>
+  <color name="home_base_status_text_critical">#ffce2221</color>
+  <color name="home_base_status_text_neutral">#ff696862</color>
   <color name="home_base_status_background_operational_bg">#ffe1f5ee</color>
   <color name="home_base_status_background_warning_bg">#fffdf3e0</color>
   <color name="home_base_status_background_critical_bg">#fffcebeb</color>

@@ -318,6 +318,10 @@
   --home-base-status-warning: #EF9F27;
   --home-base-status-critical: #E24B4A;
   --home-base-status-neutral: #888780;
+  --home-base-status-text-operational: #16795A; /** Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3). */
+  --home-base-status-text-warning: #9A610B; /** Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3). */
+  --home-base-status-text-critical: #CE2221; /** Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3). */
+  --home-base-status-text-neutral: #696862; /** Text colour for status chips on their tinted background. 4.5:1 or better in light mode (WCAG 1.4.3). */
   --home-base-status-background-operational-bg: #E1F5EE;
   --home-base-status-background-warning-bg: #FDF3E0;
   --home-base-status-background-critical-bg: #FCEBEB;
